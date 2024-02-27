@@ -49,11 +49,11 @@ MOCKUP provided within the starter pack: HTML webpage titled “My Team” featu
 
 ![MOCKUP](./assets/14-object-oriented-programming-challenge-demo.png)
 
-[Sample of the new app generated HTML file](./assets/heart_favicon.png)
+[Sample of the new app generated HTML web page](./output/team.html)
 
 Key personnel information is displayed on a newly created HTML webpage created by the app:
 
-![Screenshot of the new HTML page](./assets/heart_favicon.png)
+![Screenshot of the new HTML page](./assets/team-profile-generatorapp.png)
 
 ## Technologies Used
 
