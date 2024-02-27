@@ -1,0 +1,33 @@
+body {
+    background-color: #ffffff;
+}
+
+.container-fluid .jumbotron {
+    background-color: rgb(193, 191, 191);
+    color: #ffffff;
+}
+
+.card {
+    background-color: #ebe9e9;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px;
+}
+
+.card-header {
+    background-color: #ffbe98;
+    color: #ffffff;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.list-group-item {
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.list-group-item a {
+color: #ffbe98;
+}
