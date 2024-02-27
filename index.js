@@ -36,3 +36,12 @@ const internAnswers = await inquirer.prompt([
     { type: 'input', name: 'email', message: "What is the intern's email?" },
     { type: 'input', name: 'school', message: "What is the intern's school?" }
 ]);
+
+function generateHTML() {
+    const htmlContent = render(teamMembers);
+    if (!fs.existsSync(OUTPUT_DIR)) {
+        fs.mkdirSync(OUTPUT_DIR);
+    }
+    fs.writeFileSync(outputPath, htmlContent);
+    console.log('Team profile page generated successfully!');
+}
