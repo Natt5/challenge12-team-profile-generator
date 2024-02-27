@@ -83,5 +83,5 @@ const teamMembers = [];
 //application starts here
     init().catch(console.error);
 }
-
+}
 main().catch(console.error);
